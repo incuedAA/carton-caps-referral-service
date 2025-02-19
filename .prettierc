@@ -1,0 +1,25 @@
+{
+    "singleQuote": true,
+    
+    "useTabs": false,
+    "printWidth": 100,
+    "trailingComma": "none",
+    "tabWidth": 4,
+    "semi": false,
+    "importOrder": [
+      "reflect-metadata",
+        "^react",
+        "^\\w",
+        "/types/",
+        "/hooks/",
+        "/store/",
+        "/views/",
+        "/components/",
+        "/assets/",
+        "^./",
+        "css$"
+      ],
+      "importOrderSeparation": true,
+      "importOrderSortSpecifiers": true
+    
+}
