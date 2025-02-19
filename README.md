@@ -92,7 +92,7 @@ curl -X POST http://localhost:3000/api/auth/authorize \
 ## Business Logic
 
 ### Referral Rules
-- Users **cannot refer themselves**.
+- Users **cannot refer themselves** (handled implictly through registration).
 - **Rate limiting**: Maximum **10 referrals per 24 hours**.
 - Referral conversion occurs **only after user registration**.
 - The referrer and the new user **must have different phone numbers**.
@@ -199,6 +199,7 @@ npm run lint
 ✅ **Enhance fraud detection**, either via a dedicated fingerprinting platform, or by using an analytics provider to track user's referral patterns and create an in-house flagging system for repeat offenders.
 
 ✅ **Improve logging** (use `winston` for structured logs)  
+
 ---
 
 ## License
