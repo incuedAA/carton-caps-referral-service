@@ -187,7 +187,6 @@ npm run lint
 > **Note**: This API is too small to be a standalone microservice. Ideally, it should be integrated into the core API.
 
 
-## Improvements
 
 ✅ **Enhance rate limiting** to be more dynamic (e.g. different limits for different users, smaller window based on number of times a user has hit the limit)
 ✅ **Improve logging** (use `winston` for structured logs)  
