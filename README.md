@@ -189,12 +189,16 @@ npm run lint
 
 
 ✅ **Enhance rate limiting** to be more dynamic (e.g. different limits for different users, smaller window based on number of times a user has hit the limit)
-✅ **Improve logging** (use `winston` for structured logs)  
+
 ✅ **Implement proper HMAC** for `x-signature`  
+
 ✅ **Support API key rotation**  
+
 ✅ **Enable secrets management** (e.g., AWS Secrets Manager)  
+
 ✅ **Enhance fraud detection**, either via a dedicated fingerprinting platform, or by using an analytics provider to track user's referral patterns and create an in-house flagging system for repeat offenders.
 
+✅ **Improve logging** (use `winston` for structured logs)  
 ---
 
 ## License
