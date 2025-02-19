@@ -151,7 +151,7 @@ The following are instructions for testing the "happy path" of the application u
 Sample test user payload:
 ```json
 {
-  "referralCode": "REF123",
+  "referralCode": "REF123", // same referral code as the referring-user-id
   "newUser": {
     "id": "new-user-id2",
     "firstName": "Jane",
