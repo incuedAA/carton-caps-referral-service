@@ -5,7 +5,7 @@ import { ReferralStatus } from "../../domain/models/ReferralStatus";
 // Mock User Data for testing purposes
 export const mockUsers: User[] = [
   {
-    id: "1",
+    id: "default-user-id",
     firstName: "John",
     lastName: "Doe",
     email: "john.doe@example.com",
@@ -29,7 +29,7 @@ export const mockUsers: User[] = [
   {
     id: "new-user-id",
     email: "newuser@example.com",
-    firstName: "Jane",
+    firstName: "John",
     lastName: "NewUser",
     phoneNumber: "+9876543210",
     dob: "1995-01-01",

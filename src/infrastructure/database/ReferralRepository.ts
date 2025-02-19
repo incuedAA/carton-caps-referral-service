@@ -19,17 +19,6 @@ export class ReferralRepository implements IReferralRepository {
     return referral;
   }
 
-  async update(referral: Referral): Promise<void> {
-    const idx = this.referrals.findIndex((r) => r.id === referral.id);
-    if (idx !== -1) {
-      this.referrals[idx] = referral;
-    }
-  }
-
-  async delete(id: string): Promise<void> {
-    this.referrals = this.referrals.filter((r) => r.id !== id);
-  }
-
   async findReferralsByUserId(
     userId: string,
     sort?: {

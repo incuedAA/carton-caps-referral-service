@@ -32,7 +32,6 @@ export const createMockReferralRepository =
     findReferralsByUserId: jest.fn(),
     findById: jest.fn(),
     create: jest.fn(),
-    update: jest.fn(),
   });
 
 /**

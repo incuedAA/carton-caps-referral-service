@@ -15,5 +15,4 @@ export interface IReferralRepository {
   ): Promise<Referral[]>;
   findById(id: string): Promise<Referral | null>;
   create(referral: Referral): Promise<Referral>;
-  update(referral: Referral): Promise<void>;
 }
